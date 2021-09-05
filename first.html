@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>helo world</title>
+    </head>
+    <body>
+        <h1>choose files for labelling.</h1>
+            <ol>
+                <li>label studio</li><a href="http://localhost:8080/projects">link</a>
+                <li>jupyter notebook</li><a href="http://localhost:8888/tree?">link</a>
+            </ol>
+            <label for="avatar">Choose a picture to upload:</label>
+                <input type="file"
+                    id="avatar" name="avatar"
+                    accept="image/png, image/jpeg">
+                <form action="http://localhost:8080/projects/1/data/import">
+                    <input type="submit" value="submit">
+                </form>    
+                
+       
+    </body>
+</html>
+
