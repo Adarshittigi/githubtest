@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Label Studio</title>
+        <style>
+            /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+            h1 {text-align: center;}
+            p {text-align: left;}
+            div {text-align: left;}
+            </style>
+    </head>
+    <body style="background-color: #fd9308dc;">
+        <img src=https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/heartex_icon_opossum_orang%402x.png 
+        width= 100
+        height= 100/>
+        
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">AI based data labelling for object detection.</h1><h1 style="color: blueviolet;">Welcome!</h1>
+            
+            <h1 style="text-align: center; ">Choose files for uploading</h1>
+            
+          
+            <script src="index.js"></script>
+            <form action="http://localhost:8080/projects/1/data?upload.=bird1.jpg&tab=10&task=1" style="text-align: center;">
+                <input type="file" id="upload" name="upload.">
+                <input type="submit" value="submit">
+                
+            </form> 
+
+            
+
+         <p>This project is meant for opening label studio and labelling images in label studio.</p>
+         <p></p>
+         <p>The label studio Server needs to be started manually and then you can use this website to access label studio.</p>
+         <p>this is just a demo do not consider this as our main project, in reality Api's are taken from international</p>
+         <p>companies and </p>
+    </body>
+</html>
